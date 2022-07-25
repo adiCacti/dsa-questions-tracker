@@ -9,7 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.1",
     "@typegoose/typegoose": "^9.10.1",
+    "localforage": "^1.10.0",
     "mongodb": "^4.8.0",
     "mongoose": "^6.4.4",
     "next": "12.2.2",
