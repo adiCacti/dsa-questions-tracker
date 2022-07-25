@@ -4,9 +4,13 @@ import { Document } from "mongoose";
 export interface IQuestion extends Document {
   topic: string;
   problem: string;
+  done?: boolean;
   bookmark?: boolean;
   notes?: string;
-  url: string;
+  attempts?: number;
+  url1?: string;
+  url2?: string;
+  url3?: string;
 }
 
 export class Question {
@@ -49,8 +53,17 @@ export class Question {
   @prop()
   notes?: string;
 
+  @prop({ default: 0 })
+  attempts?: number;
+
+  @prop({})
+  url2?: string;
+
+  @prop({})
+  url3?: string;
+
   @prop({ required: [true, "Please provide the url of the question."] })
-  url!: string;
+  url1!: string;
 }
 
 export type QuestionDocument = Question & Document;
