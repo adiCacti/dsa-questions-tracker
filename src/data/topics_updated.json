@@ -1,7 +1,7 @@
 [
   {
     "_id": "62d439ffea9ca0e5df369163",
-    "doneQuestion": 0,
+    "totalQuestions": 36,
     "topicName": "Array",
     "position": 0,
     "started": false,
@@ -47,7 +47,7 @@
   },
   {
     "_id": "62d439ffea9ca0e5df369164",
-    "doneQuestion": 0,
+    "totalQuestions": 10,
     "topicName": "Matrix",
     "position": 1,
     "started": false,
@@ -67,7 +67,7 @@
   },
   {
     "_id": "62d439ffea9ca0e5df369165",
-    "doneQuestion": 0,
+    "totalQuestions": 43,
     "topicName": "String",
     "position": 2,
     "started": false,
@@ -120,7 +120,7 @@
   },
   {
     "_id": "62d439ffea9ca0e5df369166",
-    "doneQuestion": 0,
+    "totalQuestions": 36,
     "topicName": "Search & Sort",
     "position": 3,
     "started": false,
@@ -166,7 +166,7 @@
   },
   {
     "_id": "62d439ffea9ca0e5df369167",
-    "doneQuestion": 0,
+    "totalQuestions": 36,
     "topicName": "Linked List",
     "position": 4,
     "started": false,
@@ -212,7 +212,7 @@
   },
   {
     "_id": "62d439ffea9ca0e5df369168",
-    "doneQuestion": 0,
+    "totalQuestions": 35,
     "topicName": "Binary Trees",
     "position": 5,
     "started": false,
@@ -257,7 +257,7 @@
   },
   {
     "_id": "62d439ffea9ca0e5df369169",
-    "doneQuestion": 0,
+    "totalQuestions": 22,
     "topicName": "Binary Search Trees",
     "position": 6,
     "started": false,
@@ -289,7 +289,7 @@
   },
   {
     "_id": "62d439ffea9ca0e5df36916a",
-    "doneQuestion": 0,
+    "totalQuestions": 35,
     "topicName": "Greedy",
     "position": 7,
     "started": false,
@@ -334,7 +334,7 @@
   },
   {
     "_id": "62d439ffea9ca0e5df36916b",
-    "doneQuestion": 0,
+    "totalQuestions": 19,
     "topicName": "BackTracking",
     "position": 8,
     "started": false,
@@ -363,7 +363,7 @@
   },
   {
     "_id": "62d439ffea9ca0e5df36916c",
-    "doneQuestion": 0,
+    "totalQuestions": 38,
     "topicName": "Stacks & Queues",
     "position": 9,
     "started": false,
@@ -411,7 +411,7 @@
   },
   {
     "_id": "62d439ffea9ca0e5df36916d",
-    "doneQuestion": 0,
+    "totalQuestions": 18,
     "topicName": "Heap",
     "position": 10,
     "started": false,
@@ -439,7 +439,7 @@
   },
   {
     "_id": "62d439ffea9ca0e5df36916e",
-    "doneQuestion": 0,
+    "totalQuestions": 44,
     "topicName": "Graph",
     "position": 11,
     "started": false,
@@ -493,7 +493,7 @@
   },
   {
     "_id": "62d439ffea9ca0e5df36916f",
-    "doneQuestion": 0,
+    "totalQuestions": 6,
     "topicName": "Trie",
     "position": 12,
     "started": false,
@@ -509,7 +509,7 @@
   },
   {
     "_id": "62d439ffea9ca0e5df369170",
-    "doneQuestion": 0,
+    "totalQuestions": 60,
     "topicName": "Dynamic Programming",
     "position": 13,
     "started": false,
@@ -579,7 +579,7 @@
   },
   {
     "_id": "62d439ffea9ca0e5df369171",
-    "doneQuestion": 0,
+    "totalQuestions": 10,
     "topicName": "Bit Manipulation",
     "position": 14,
     "started": false,
