@@ -4,7 +4,7 @@ import {
   DSADatabase,
   dbInitialize,
   checkIfDbExist,
-} from "../services/dbInitialize";
+} from "../services/dbServices";
 
 interface ReturnType {
   dbKeys: string[];
