@@ -1,7 +1,6 @@
+// libraries
 import { Grid } from "@mui/material";
-import React from "react";
-import { IQuestion, QuestionDocument, QuestionModel } from "../models/Question";
-import { ITopic, TopicDocument, TopicModel } from "../models/Topic";
+// components
 import TopicCard from "./TopicCard";
 
 const TopicCardsContainer = ({ topics }: any) => {
