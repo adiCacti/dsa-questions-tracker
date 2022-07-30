@@ -18,6 +18,13 @@ export const checkIfDbExist = async () => {
 };
 
 export const dbInitialize = async () => {
+  await localforage.dropInstance({
+    name: "DSA_TRACKER_DB",
+    storeName: "DSADatabase",
+  });
+
+  console.log("💧 Database Dropped");
+
   const topicKeysArray = topicQuestionData.map(({ topicName }) => {
     return topicName.replace(/\s+/g, "_").toLowerCase();
   });
@@ -30,6 +37,13 @@ export const dbInitialize = async () => {
 };
 
 export const resetDb = async () => {
+  await localforage.dropInstance({
+    name: "DSA_TRACKER_DB",
+    storeName: "DSADatabase",
+  });
+
+  console.log("💧 Database Dropped");
+
   const topicKeysArray = topicQuestionData.map(({ topicName }) => {
     return topicName.replace(/\s+/g, "_").toLowerCase();
   });
@@ -38,5 +52,35 @@ export const resetDb = async () => {
     DSADatabase.setItem(topicName, topicQuestionData[index]);
   });
 
-  console.log("DSADatabase is re-initialized");
+  console.log("📦 DSADatabase is re-initialized");
+};
+
+export const exportData = (data: any) => {
+  const jsonString = `data:text/json;chatset=utf-8,${encodeURIComponent(
+    JSON.stringify(data)
+  )}`;
+  const link = document.createElement("a");
+  link.href = jsonString;
+  link.download = "data.json";
+
+  link.click();
+};
+
+export const importData = async (data: any) => {
+  await localforage.dropInstance({
+    name: "DSA_TRACKER_DB",
+    storeName: "DSADatabase",
+  });
+
+  console.log("💧 Database Dropped");
+
+  const topicKeysArray = data.map(({ topicName }: any) => {
+    return topicName.replace(/\s+/g, "_").toLowerCase();
+  });
+
+  topicKeysArray.map((topicName: string, index: number) => {
+    DSADatabase.setItem(topicName, data[index]);
+  });
+
+  console.log("🛎️ DSADatabase is imported and initialized");
 };
