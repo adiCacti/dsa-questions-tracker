@@ -3854,7 +3854,7 @@
       {
         "id": "62d3a403c64b1e686f263281",
         "topic": "Heap",
-        "question": "Maximum of all subarrays of size k.",
+        "question": "Maximum of all sub arrays of size k.",
         "status": false,
         "bookmark": false,
         "notes": "",
@@ -3866,7 +3866,7 @@
       {
         "id": "62d3a403c64b1e686f263282",
         "topic": "Heap",
-        "question": "",
+        "question": "K largest elements",
         "status": false,
         "bookmark": false,
         "notes": "",
@@ -3890,7 +3890,7 @@
       {
         "id": "62d3a403c64b1e686f263284",
         "topic": "Heap",
-        "question": "Merge ",
+        "question": "Merge k Sorted Arrays",
         "status": false,
         "bookmark": false,
         "notes": "",
@@ -3914,7 +3914,7 @@
       {
         "id": "62d3a403c64b1e686f263286",
         "topic": "Heap",
-        "question": "Kth largest sum continuous subarrays",
+        "question": "Kth largest sum continuous sub arrays",
         "status": false,
         "bookmark": false,
         "notes": "",
@@ -3926,7 +3926,7 @@
       {
         "id": "62d3a403c64b1e686f263287",
         "topic": "Heap",
-        "question": "Leetcode- reorganize strings",
+        "question": "Reorganize String",
         "status": false,
         "bookmark": false,
         "notes": "",
@@ -3938,7 +3938,7 @@
       {
         "id": "62d3a403c64b1e686f263288",
         "topic": "Heap",
-        "question": "Merge ",
+        "question": "Merge K sorted linked lists",
         "status": false,
         "bookmark": false,
         "notes": "",
@@ -3950,7 +3950,7 @@
       {
         "id": "62d3a403c64b1e686f263289",
         "topic": "Heap",
-        "question": "Smallest range in ",
+        "question": "Smallest range in K lists",
         "status": false,
         "bookmark": false,
         "notes": "",
@@ -3986,7 +3986,7 @@
       {
         "id": "62d3a403c64b1e686f26328c",
         "topic": "Heap",
-        "question": "Connect ",
+        "question": "Minimum Cost of ropes",
         "status": false,
         "bookmark": false,
         "notes": "",
