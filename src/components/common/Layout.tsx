@@ -2,7 +2,7 @@ import React from "react";
 // libraries
 import { useRouter } from "next/router";
 // components
-import Footer from "./Footer";
+import Footer from "./FooterAction";
 import Header from "./Header";
 
 interface props {
