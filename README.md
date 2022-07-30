@@ -1,70 +1,53 @@
-# DSA QUestions Tracker 🔥
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+[![Website Badge](https://img.shields.io/badge/Visit-Now-green?style=for-the-badge&logo=vercel)]
 
-[![React Badge](http://img.shields.io/badge/Powered%20By-React-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
-[![Website Badge](https://img.shields.io/badge/Visit-Now-green?style=for-the-badge&logo=vercel)](https://450dsa.com/)
+# DSA TRACKER APP 🔥
+
+While going through our DSA journey, we all needs a solution to track our progress. This app is made exactly to solve that problem.
 
 ## Overview 👀
 
-![](.gitres/cover.png)
-
+- **Simple UI ⚡**
+- **Topic wise progress 📏**
 - **Topic wise question search 🔍**
-- **Topic wise progress 🧐**
 - **Complete local storage 📂**
-- **Mobile first design ✌🏻**
-- **Clean UI ⚡**
+- **Two new links can be added for each questions 🔗**
+- **Notes can be added to each question 📖**
 
-## What is 450-DSA Cracker 🤔
+## New Features(will be added shortly) 🧑‍🚀
 
-#### 450 DSA Cracker is a comprehensive list of 400 + topic wise questions to build your confidence in data structure and algorithms and prepare yourself for placements.
-
-#### 450 DSA Cracker doesn't guarantee a job but guarantees your confidence in solving any coding problem if done in the right way 👍🏻.
-
-#### More details on how [450dsa] can help you -> [here].
+- Responsive design
+- Add new questions
+- Most imp questions list needed to be done
+- UI enchanced
 
 ## Dependencies 🗃
 
-- [React] - **Frontend Framework**
-- [Bootstrap] - **CSS Framework**
-- [React-Reveal] - **React Based Animations**
-- [React-Table-2] - **Suite of table hooks**
-- [LocalBase] - **Firebase style DB for offline storage**
+- [NextJs] - **Frontend Framework**
+- [MUI] - **Component Library**
+- [React-Dropzone] - **React Based Animations**
+- [React-Data-Table-Component] - **Table component library for react**
+- [LocalForage] - **DB for offline storage**
 
-## WIP 🛠
+## Contributing
 
-- ~Dark Mode~
-- Add `mark for review\fav` feature
-- Leader Board
-- Better Responsive CSS
-- Better State Management
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Run Locally 💻
+## Credits 💳
 
-```
-> Clone the repo
-    >> For Windows: Git Bash
-    >> For Linux: Terminal
-    >> git clone https://github.com/AsishRaju/450-DSA.git
-> Change the folder location to your source Code Folder
-    >> cd 450-DSA/src
-> Install the dependencies
-    >> npm install
-> Start the server
-    >> npm start
-> 450DSA runs on port 3000 of your Local Machine
-```
-
-[![OPEN-PR](https://img.shields.io/badge/Open%20For-PR-orange?style=for-the-badge&logo=github)](https://github.com/AsishRaju/450-DSA)
-
-## Credits 🙏🏻
-
-#### Curated list of question in [450dsa] is based on _[DSA Cracker Sheet]_ by [Love Babbar]
+To Love Babbar for curating questions lists
 
 [here]: https://www.youtube.com/watch?v=4iFALQ1ACdA
 [450dsa]: https://450dsa.com/
-[love babbar]: https://www.linkedin.com/in/love-babbar-38ab2887/
-[dsa cracker sheet]: https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view
-[localbase]: https://github.com/dannyconnell/localbase
-[react-reveal]: https://www.react-reveal.com/
-[bootstrap]: https://react-bootstrap.github.io/
-[react]: https://reactjs.org/
-[react-table-2]: https://react-bootstrap-table.github.io/react-bootstrap-table2/
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+[localforage]: https://github.com/localForage/localForage
+[nextjs]: https://nextjs.org/
+[mui]: https://mui.com/
+[react-dropzone]: https://react-dropzone.js.org/
+[react-data-table-component]: https://www.npmjs.com/package/react-data-table-component
