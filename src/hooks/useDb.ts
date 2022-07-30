@@ -26,7 +26,7 @@ function useDb(defaultValue?: boolean): ReturnType {
       if (!status) {
         console.log("⚔ DSADatabase is not present");
 
-        dbInitialize();
+        await dbInitialize();
       }
 
       setDbKeys(await DSADatabase.keys());
