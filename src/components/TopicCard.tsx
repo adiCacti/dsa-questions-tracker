@@ -43,8 +43,6 @@ export default function TopicCard({
 }: TopicCardProps) {
   const router = useRouter();
 
-  console.log(topicName);
-
   const {
     topicData,
     setTopicData,
