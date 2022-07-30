@@ -1,34 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DSA QUestions Tracker 🔥
 
-## Getting Started
+[![React Badge](http://img.shields.io/badge/Powered%20By-React-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![Website Badge](https://img.shields.io/badge/Visit-Now-green?style=for-the-badge&logo=vercel)](https://450dsa.com/)
 
-First, run the development server:
+## Overview 👀
 
-```bash
-npm run dev
-# or
-yarn dev
+![](.gitres/cover.png)
+
+- **Topic wise question search 🔍**
+- **Topic wise progress 🧐**
+- **Complete local storage 📂**
+- **Mobile first design ✌🏻**
+- **Clean UI ⚡**
+
+## What is 450-DSA Cracker 🤔
+
+#### 450 DSA Cracker is a comprehensive list of 400 + topic wise questions to build your confidence in data structure and algorithms and prepare yourself for placements.
+
+#### 450 DSA Cracker doesn't guarantee a job but guarantees your confidence in solving any coding problem if done in the right way 👍🏻.
+
+#### More details on how [450dsa] can help you -> [here].
+
+## Dependencies 🗃
+
+- [React] - **Frontend Framework**
+- [Bootstrap] - **CSS Framework**
+- [React-Reveal] - **React Based Animations**
+- [React-Table-2] - **Suite of table hooks**
+- [LocalBase] - **Firebase style DB for offline storage**
+
+## WIP 🛠
+
+- ~Dark Mode~
+- Add `mark for review\fav` feature
+- Leader Board
+- Better Responsive CSS
+- Better State Management
+
+## Run Locally 💻
+
+```
+> Clone the repo
+    >> For Windows: Git Bash
+    >> For Linux: Terminal
+    >> git clone https://github.com/AsishRaju/450-DSA.git
+> Change the folder location to your source Code Folder
+    >> cd 450-DSA/src
+> Install the dependencies
+    >> npm install
+> Start the server
+    >> npm start
+> 450DSA runs on port 3000 of your Local Machine
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[![OPEN-PR](https://img.shields.io/badge/Open%20For-PR-orange?style=for-the-badge&logo=github)](https://github.com/AsishRaju/450-DSA)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Credits 🙏🏻
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+#### Curated list of question in [450dsa] is based on _[DSA Cracker Sheet]_ by [Love Babbar]
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[here]: https://www.youtube.com/watch?v=4iFALQ1ACdA
+[450dsa]: https://450dsa.com/
+[love babbar]: https://www.linkedin.com/in/love-babbar-38ab2887/
+[dsa cracker sheet]: https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view
+[localbase]: https://github.com/dannyconnell/localbase
+[react-reveal]: https://www.react-reveal.com/
+[bootstrap]: https://react-bootstrap.github.io/
+[react]: https://reactjs.org/
+[react-table-2]: https://react-bootstrap-table.github.io/react-bootstrap-table2/
