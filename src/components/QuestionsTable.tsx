@@ -299,8 +299,7 @@ const QuestionsTable = ({ topicName }: QuestionsTableProps) => {
       },
       {
         name: "Attempts",
-        width: "10%",
-        minWidth: "130px",
+        width: "200px",
         selector: (row: any) => {
           return (
             <Box
