@@ -11,18 +11,20 @@ import ArrowCircleRightRoundedIcon from "@mui/icons-material/ArrowCircleRightRou
 import TextSnippetRoundedIcon from "@mui/icons-material/TextSnippetRounded";
 import Link from "next/link";
 import DataTable from "react-data-table-component";
+import DataTableExtensions from "react-data-table-component-extensions";
 import { toast } from "react-toastify";
 // hooks
 import useQuestionsData from "../hooks/useQuestionsData";
 // styles
 import styles from "../styles/QuestionsTable.module.scss";
+import "react-data-table-component-extensions/dist/index.css";
+import { customStyles } from "../utils/customStylesForReactTable";
 // components
 import Loader from "./common/Loader";
 import ExpandedQuestion from "./ExpandedQuestion";
+import BannerForQuestion from "./BannerForQuestion";
 // utils
 import { sortStatus, sortBookmark } from "../utils/sortFunctionsForReactTable";
-import { customStyles } from "../utils/customStylesForReactTable";
-import BannerForQuestion from "./BannerForQuestion";
 
 function LinearProgressWithLabel(
   props: LinearProgressProps & { value: number }
@@ -363,6 +365,11 @@ const QuestionsTable = ({ topicName }: QuestionsTableProps) => {
     ]
   );
 
+  const tableData = {
+    columns: columns,
+    data: topicData?.questions,
+  };
+
   if (!topicData) {
     return <Loader />;
   }
@@ -389,24 +396,31 @@ const QuestionsTable = ({ topicName }: QuestionsTableProps) => {
           width: "90%",
         }}
       >
-        <DataTable
-          // @ts-ignore
-          columns={columns}
-          data={topicData.questions}
-          customStyles={customStyles}
-          responsive
-          striped
-          highlightOnHover
-          pointerOnHover
-          persistTableHead
-          expandableRowsComponent={ExpandedQuestion}
-          pagination
-          noHeader
-          defaultSortFieldId={3}
-          expandOnRowClicked
-          expandableRows
-          noContextMenu
-        />
+        <DataTableExtensions
+          {...tableData}
+          filterPlaceholder='Search a question'
+          print={false}
+          export={false}
+        >
+          <DataTable
+            // @ts-ignore
+            columns={columns}
+            data={topicData.questions}
+            customStyles={customStyles}
+            responsive
+            striped
+            highlightOnHover
+            pointerOnHover
+            persistTableHead
+            expandableRowsComponent={ExpandedQuestion}
+            pagination
+            noHeader
+            defaultSortFieldId={3}
+            expandOnRowClicked
+            expandableRows
+            noContextMenu
+          />
+        </DataTableExtensions>
       </Box>
     </Container>
   );
