@@ -1,0 +1,22 @@
+diff --git a/node_modules/react-data-table-component-extensions/dist/index.js b/node_modules/react-data-table-component-extensions/dist/index.js
+index 2ee2dce..0f58d18 100644
+--- a/node_modules/react-data-table-component-extensions/dist/index.js
++++ b/node_modules/react-data-table-component-extensions/dist/index.js
+@@ -249,6 +249,7 @@ DataTableExtensions.propTypes = {
+   filterDigit: _propTypes["default"].number,
+   fileName: _propTypes["default"].string
+ };
++
+ DataTableExtensions.defaultProps = {
+   columns: [],
+   data: [],
+@@ -260,7 +261,7 @@ DataTableExtensions.defaultProps = {
+   filterHidden: true,
+   filterPlaceholder: 'Filter Table',
+   filterDigit: 2,
+-  fileName: document.title
++  fileName: ''
+ };
+ var _default = DataTableExtensions;
+ exports["default"] = _default;
+\ No newline at end of file
