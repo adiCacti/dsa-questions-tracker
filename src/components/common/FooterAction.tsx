@@ -134,7 +134,6 @@ const Footer = () => {
         </Box>
       </Modal>
 
-      {/* reset btn */}
       <Button
         variant='contained'
         sx={{ textTransform: "capitalize" }}
