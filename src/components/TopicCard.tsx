@@ -67,9 +67,6 @@ export default function TopicCard({
     <Card
       className={styles.card_container}
       sx={{ minWidth: 480, minHeight: 210, p: 1 }}
-      onClick={() =>
-        router.push(`/${topicName.replaceAll(" ", "_").toLowerCase()}`)
-      }
     >
       <CardContent>
         <Grid
@@ -96,6 +93,9 @@ export default function TopicCard({
                 textTransform: "none",
                 borderRadius: "20px",
               }}
+              onClick={() =>
+                router.push(`/${topicName.replaceAll(" ", "_").toLowerCase()}`)
+              }
             >
               Solve Now
             </Button>
@@ -103,7 +103,11 @@ export default function TopicCard({
             <Button
               className={styles.startNowBtn}
               variant='contained'
-              onClick={() => handleStartNowBtnClick(topicData.id, topicData)}
+              onClick={() => {
+                handleStartNowBtnClick(topicData.id, topicData);
+
+                router.push(`/${topicName.replaceAll(" ", "_").toLowerCase()}`);
+              }}
             >
               Start Now
             </Button>
