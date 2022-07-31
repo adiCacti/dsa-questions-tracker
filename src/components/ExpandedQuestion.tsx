@@ -102,7 +102,7 @@ const ExpandedQuestion: React.FC<ExpanderComponentProps<DataRow>> = ({
             value={notesValue}
             onChange={handleNotesChange}
             sx={{
-              maxWidth: "60%",
+              maxWidth: "70%",
             }}
           />
 
@@ -137,7 +137,7 @@ const ExpandedQuestion: React.FC<ExpanderComponentProps<DataRow>> = ({
           <Button
             type='submit'
             variant='contained'
-            sx={{ mt: 1, textTransform: "capitalize", maxWidth: "15%" }}
+            sx={{ mt: 1, textTransform: "capitalize", maxWidth: "8%" }}
             className={styles.submitBtn}
           >
             Submit
