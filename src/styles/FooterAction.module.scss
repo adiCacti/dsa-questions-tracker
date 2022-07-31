@@ -34,6 +34,7 @@
   touch-action: manipulation;
   vertical-align: baseline;
   transition: all 0.2s cubic-bezier(0.22, 0.61, 0.36, 1);
+  text-transform: capitalize;
 
   &:hover {
     background-color: #dc3545;
@@ -75,6 +76,7 @@
   transition: all 0.2s cubic-bezier(0.22, 0.61, 0.36, 1);
   margin-left: 20px;
   margin-right: 20px;
+  text-transform: capitalize;
 
   &:hover {
     background-color: #ffbb52;
@@ -114,6 +116,7 @@
   touch-action: manipulation;
   vertical-align: baseline;
   transition: all 0.2s cubic-bezier(0.22, 0.61, 0.36, 1);
+  text-transform: capitalize;
 
   &:hover {
     background-color: #065dd8;
@@ -130,7 +133,6 @@
 
 .confirmBtn {
   margin-top: 20px;
-
   align-items: center;
   appearance: none;
   background-image: radial-gradient(
@@ -164,6 +166,7 @@
   white-space: nowrap;
   will-change: box-shadow, transform;
   font-size: 18px;
+  text-transform: capitalize;
 
   &:focus {
     box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
@@ -213,6 +216,7 @@
   white-space: nowrap;
   will-change: box-shadow, transform;
   font-size: 18px;
+  text-transform: capitalize;
 
   &:focus {
     box-shadow: #ff5a86 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,

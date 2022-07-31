@@ -76,21 +76,16 @@ const Footer = () => {
           </Typography>
 
           <Box sx={{ display: "flex", justifyContent: "space-around" }}>
-            {/* reset logic */}
             {type === "reset" && (
               <>
-                <Button
-                  variant='contained'
-                  sx={{ textTransform: "capitalize" }}
+                <button
                   className={styles.confirmBtn}
                   onClick={handleConfirmResetBtnClick}
                 >
                   Confirm
-                </Button>
+                </button>
 
-                <Button
-                  variant='contained'
-                  sx={{ textTransform: "capitalize" }}
+                <button
                   className={styles.rejectBtn}
                   onClick={() => {
                     setType("");
@@ -98,20 +93,18 @@ const Footer = () => {
                   }}
                 >
                   Reject
-                </Button>
+                </button>
               </>
             )}
 
             {type === "export" && (
               <>
-                <Button
-                  variant='contained'
-                  sx={{ textTransform: "capitalize" }}
+                <button
                   className={styles.rejectBtn}
                   onClick={handleExportBtnClick}
                 >
                   Export
-                </Button>
+                </button>
               </>
             )}
 
@@ -119,14 +112,12 @@ const Footer = () => {
               <Box display='flex' flexDirection={"column"} sx={{ m: 1.5 }}>
                 <FileDropzone setFileToImport={setFileToImport} />
                 {fileToImport && (
-                  <Button
-                    variant='contained'
-                    sx={{ textTransform: "capitalize" }}
+                  <button
                     className={styles.confirmBtn}
                     onClick={handleImportBtnClick}
                   >
                     Import
-                  </Button>
+                  </button>
                 )}
               </Box>
             )}
@@ -134,9 +125,7 @@ const Footer = () => {
         </Box>
       </Modal>
 
-      <Button
-        variant='contained'
-        sx={{ textTransform: "capitalize" }}
+      <button
         className={styles.resetProgress}
         onClick={() => {
           setType("reset");
@@ -144,11 +133,9 @@ const Footer = () => {
         }}
       >
         Reset Progress
-      </Button>
+      </button>
 
-      <Button
-        variant='contained'
-        sx={{ textTransform: "capitalize" }}
+      <button
         className={styles.exportProgress}
         onClick={() => {
           setType("export");
@@ -156,11 +143,9 @@ const Footer = () => {
         }}
       >
         Export Progress
-      </Button>
+      </button>
 
-      <Button
-        variant='contained'
-        sx={{ textTransform: "capitalize" }}
+      <button
         className={styles.importProgress}
         onClick={() => {
           setType("import");
@@ -168,7 +153,7 @@ const Footer = () => {
         }}
       >
         Import Progress
-      </Button>
+      </button>
     </Container>
   );
 };
