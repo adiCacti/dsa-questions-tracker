@@ -77,7 +77,6 @@ const Header = () => {
                   "&:hover": {
                     cursor: "pointer",
                     color: "#04befe",
-                    transform: "scale(1.02)",
                   },
                   "&:active": {
                     transform: "scale(0.97)",
@@ -102,7 +101,6 @@ const Header = () => {
                   "&:hover": {
                     cursor: "pointer",
                     color: "#04befe",
-                    transform: "scale(1.02)",
                   },
                   "&:active": {
                     transform: "scale(0.97)",
