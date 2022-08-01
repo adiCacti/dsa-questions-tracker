@@ -12,16 +12,16 @@ import FolderIcon from "@mui/icons-material/Folder";
 
 const Header = () => {
   return (
-    <AppBar position='static' sx={{ background: "white" }}>
-      <Container maxWidth='xl'>
+    <AppBar position="static" sx={{ background: "white" }}>
+      <Container maxWidth="xl">
         <Toolbar
           disableGutters
           sx={{ display: "flex", justifyContent: "space-between" }}
         >
           <Typography
             noWrap
-            component='a'
-            href='/'
+            component="a"
+            href="/"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
@@ -35,7 +35,7 @@ const Header = () => {
           </Typography>
 
           <Typography
-            component='div'
+            component="div"
             sx={{
               fontSize: "45px",
               color: "black",
@@ -45,7 +45,7 @@ const Header = () => {
           </Typography>
 
           <Box>
-            <Tooltip title='My Github'>
+            <Tooltip title="My Github">
               <GitHubIcon
                 sx={{
                   fontSize: "50px",
@@ -53,6 +53,7 @@ const Header = () => {
                   color: "#4481eb",
                   transitions: "all .2s ease-in",
                   "&:hover": {
+                    cursor: "pointer",
                     color: "#04befe",
                     transform: "scale(1.02)",
                   },
@@ -66,7 +67,7 @@ const Header = () => {
               />
             </Tooltip>
 
-            <Tooltip title='My LinkedIn'>
+            <Tooltip title="My LinkedIn">
               <LinkedInIcon
                 sx={{
                   fontSize: "55px",
@@ -74,6 +75,7 @@ const Header = () => {
                   mr: 3,
                   transitions: "all .2s ease-in",
                   "&:hover": {
+                    cursor: "pointer",
                     color: "#04befe",
                     transform: "scale(1.02)",
                   },
@@ -91,13 +93,14 @@ const Header = () => {
               />
             </Tooltip>
 
-            <Tooltip title='Project Repo'>
+            <Tooltip title="Project Repo">
               <FolderIcon
                 sx={{
                   fontSize: "55px",
                   color: "#4481eb",
                   transitions: "all .2s ease-in",
                   "&:hover": {
+                    cursor: "pointer",
                     color: "#04befe",
                     transform: "scale(1.02)",
                   },
